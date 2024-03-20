@@ -42,7 +42,9 @@ function App() {
           inActiveColor={GRAY_150}
           completedColor={BLUE_200}
         />
-          {isLoading && <Spinner animation="border" color='gray' />} 
+          {isLoading && <div className='spinner'>
+            <Spinner animation="border" color='gray' />
+          </div>} 
           {currentStep === 0 ? (
             <div className='categoryContainer'> 
               {CATEGORY_LIST.map((category) => {
