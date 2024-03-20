@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.kycDataContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.kycData {
+    padding: 30px 25px;
+    background: linear-gradient(180deg, #8bc0f0 0%, #b6d8e2 131%);
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 14px;
+    margin: 15px;
+}
+
+.dataRow {
+    display: flex;
+    flex-direction: row;
+}

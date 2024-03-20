@@ -1,0 +1,16 @@
+.inputForm{
+    display: flex;
+    justify-content: center;
+}
+.inputField{
+    margin-top: 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitButton{
+    margin-top: 5px;
+}
