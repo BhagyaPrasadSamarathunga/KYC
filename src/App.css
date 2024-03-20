@@ -42,12 +42,6 @@
   margin-top: 50px;
 }
 
-.spinner{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .error {
   width: 100%;
   text-align: center;

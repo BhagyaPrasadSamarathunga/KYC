@@ -1,10 +1,11 @@
+import './Stepper.css';
 import { Stepper as RSteper } from 'react-form-stepper';
 
 
 const Stepper = ({currentStep, steps, style, activeColor, inActiveColor, completedColor}) => {
 
     return(
-        <div style={style}>
+        <div className='steperContainer' style={style}>
             <RSteper
                 steps={steps}
                 activeStep={currentStep}
