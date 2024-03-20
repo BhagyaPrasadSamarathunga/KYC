@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { CATEEGORIES_PROPS } from "../../utils/constants/general";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import './InputForm.css'
+import './InputForm.css';
 
 const InputForm = ({category, onSubmitClick}) => {
 

@@ -45,7 +45,7 @@ const KycStatus = ({kycData, errorMsg}) => {
             {kycData && 
                 <div className='kycDataContainer'> 
                     {kycData.attributes.map(item => (
-                        <KycData data={item}/>
+                            <KycData data={item} key={item.id}/>
                     ))}
                 </div>
             }

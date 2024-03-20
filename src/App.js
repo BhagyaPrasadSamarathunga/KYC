@@ -49,7 +49,7 @@ function App() {
             <div className='categoryContainer'> 
               {CATEGORY_LIST.map((category) => {
                 return (
-                  <div className='category'>
+                  <div className='category' key={CATEEGORIES_PROPS[category].id}>
                     <CategoryTile category={category} onClick={(category)=>handelCatogaryClick(category)}/>
                   </div>
                 )})}
